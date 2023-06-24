@@ -1,0 +1,36 @@
+.tracker--container {
+    width: 50%;
+    height: fit-content;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 2.75em;
+    padding: 1.5em 3.7em;
+    margin: 0em 3em;
+    font-family: 'Outfit', sans-serif;
+    overflow-x: hidden;
+}
+
+.tracker--metrics {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.tracker--head {
+    margin: 0;
+}
+
+.tracker--incomePercentage {
+    font-weight: bold;
+    margin-bottom: 0em;
+}
+
+.tracker--show--button {
+    margin: 1.5em 1em 0em 1em;
+    background: #90B77D;
+    border-radius: 0.8em;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0.5em 0.8em;
+    cursor: pointer;
+}

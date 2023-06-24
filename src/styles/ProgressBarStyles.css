@@ -1,0 +1,33 @@
+.progress {
+  margin-bottom: 1.2em;
+}
+
+.progress--bar {
+  background-color: #d8d8d8;
+  border-radius: 1.25em;
+  position: relative;
+  height: 0.8em;
+  width: 100%;
+}
+
+.progress--head {
+  display: flex;
+  justify-content: space-between;
+  margin: 0em 0em 0.6em 0em;
+}
+
+.progress--headContent {
+  margin: 0;
+}
+  
+.progress--done {
+  background: #90B77D;
+  border-radius: 1.25em;
+  color: black;
+  justify-content: center;
+  height: 100%;
+  width: 0;
+  opacity: 0;
+  transition: 1s ease 0.3s;
+  font-size: 0.7em;
+}

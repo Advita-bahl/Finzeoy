@@ -1,0 +1,7 @@
+.feed--container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 3em;
+    height: 87vh;
+    overflow-y: hidden;
+}

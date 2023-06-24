@@ -1,0 +1,44 @@
+.modal--mainContent div {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+.modal--content {
+    width: 50vw;
+    background-color: #fefefe;
+    border-radius: 30px;
+}
+
+#title {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    padding: 5px;
+    width: 400px;
+}
+
+#articleType {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    padding: 5px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+#article {
+    font-size: 1.2rem;
+    height: 30vh;
+    width: 40vw;
+    word-wrap: break-word;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 0.4em 0.5em;
+}
+
+#postButton {
+    width: 150px;
+    padding: 5px;
+    border-radius: 10px;
+}

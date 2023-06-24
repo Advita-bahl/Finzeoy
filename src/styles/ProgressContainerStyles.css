@@ -1,0 +1,60 @@
+.budget--container {
+    height: 35vh;
+    /* height: 35vh; */
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    background: rgba(144, 183, 125, 0.4);
+    border-radius: 1em;
+    padding: 1em 1.5em;
+    margin-top: 1em;
+}
+
+.budget--header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.budget--header--title {
+    margin: 0;
+}
+
+.budget--buttons {
+    display: flex;
+}
+
+.budget--header--button {
+    background: transparent;
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 0.8em;
+    background: rgba(144, 183, 125, 0.8);
+    display: flex;
+    justify-content: center;
+    margin: 0em 0.6em;
+    cursor: pointer;
+    border: none;
+}
+
+.budget--buttonImage{
+    height: 2em;
+    width: 2em;
+}
+
+*::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar-thumb
+{
+	background-color: rgba(55,71,79, 0.3);
+	border: 2px solid rgba(55,71,79, 0.3);
+}

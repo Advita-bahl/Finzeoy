@@ -1,0 +1,36 @@
+.general--homePage {
+    background: rgba(144, 183, 125, 0.5);
+    position: absolute;
+    top: 0px;
+    z-index: -50;
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 10vh;
+    overflow-x: hidden;
+}
+
+.page--active {
+    background: #90B77D;
+    border-radius: 0.4em;
+    animation: page-show-back 0.3s ease-in;
+}
+
+.header--right {
+    display: flex;
+    justify-content: space-between;
+}
+
+@keyframes page-show-back {
+    from {
+        background: transparent;
+    }
+    to {
+        background: rgba(144, 183, 125, 0.5);
+    }
+}
+
+.main--content {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 6em;
+}

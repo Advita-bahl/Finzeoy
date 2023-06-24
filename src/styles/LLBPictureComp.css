@@ -1,0 +1,33 @@
+.LLBPCcontainer {
+    /* outline: 1px black solid; */
+    display: flex;
+    flex-direction: column;
+    margin: 0px 12px;
+    border: 2px solid black;
+    flex-basis: 250px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    border-radius: 7px;
+}
+
+.LLBPCreadMore {
+    background-color: #B93160;
+    position: relative;
+    bottom: 45px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.LLBPCcontainer img {
+    height: 150px;
+}
+
+.articleTitle {
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+    padding: 0px 5px;
+}
